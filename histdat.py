@@ -59,7 +59,8 @@ authors = [['ΟΜΗΡΟΣ', 'HOMER', 'HOMERUS'],
            ['ΑΝΤΙΣΘΕΝΗΣ', 'ANTISTHENES'],
            ['ΗΡΩΔΑΣ', 'ΗΡΩΝΔΑΣ', 'HERODAS', 'HERONDAS'],
            ['ΜΕΝΑΝΔΡΟΣ', 'MENANDER'],
-           ['ΜΟΥΣΑΙΟΣ', 'MUSAEUS']
+           ['ΜΟΥΣΑΙΟΣ', 'MUSAEUS'],
+           ['ΑΠΟΛΛΩΝΙΟΣ ΡΟΔΙΟΣ', 'APOLLONIUS', 'APOLLONIUS RHODIUS']
 ]
 greek_language_urls = ['https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=194',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=156',
@@ -93,7 +94,8 @@ greek_language_urls = ['https://www.greek-language.gr/digitalResources/ancient_g
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=115',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=154',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=185',
-                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=189'
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=189',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=121'
 ]
 perseus_urls = ['http://www.perseus.tufts.edu/hopper/searchresults?q=Homer',
                 'http://www.perseus.tufts.edu/hopper/searchresults?q=Hesiod',
@@ -127,7 +129,8 @@ perseus_urls = ['http://www.perseus.tufts.edu/hopper/searchresults?q=Homer',
                 '',
                 '',
                 '',
-                ''
+                '',
+                'https://www.perseus.tufts.edu/hopper/searchresults?q=APOLLONIUS'
 ]
 tlg_urls = ['http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0012&wid=&q=HOMERUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0020&wid=&q=HESIODUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
@@ -161,9 +164,11 @@ tlg_urls = ['http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0012
             'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0591&wid=&q=ANTISTHENES&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=5&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0650&wid=&q=HERODAS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0541&wid=&q=MENANDER&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
-            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=4082&wid=&q=MUSAEUS%20Grammaticus&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=4&acp=1&editid='
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=4082&wid=&q=MUSAEUS%20Grammaticus&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=4&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0001&wid=&q=APOLLONIUS%20RHODIUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid='
 ]
 more_urls = [['http://users.sch.gr/ipap/Ellinikos%20Politismos/Yliko/OMHROS-ILIADA/ARXAIO/ILIADA.htm', 'http://users.sch.gr/ipap/Ellinikos%20Politismos/Yliko/OMHROS%20ODYSSEIA/OMHROS%20ODYSSEIA.htm'],
+             [],
              [],
              [],
              [],
