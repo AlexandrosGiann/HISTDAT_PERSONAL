@@ -41,7 +41,7 @@ authors = [['ΟΜΗΡΟΣ', 'HOMER', 'HOMERUS'],
            ['ΕΥΡΙΠΙΔΗΣ', 'EURIPIDES'],
            ['ΑΙΣΧΙΝΗΣ', 'AESCHINES'],
            ['ΑΡΙΣΤΟΦΑΝΗΣ', 'ARISTOPHANES'],
-           ['ΑΡΡΙΑΝΟΣ', 'ARRIAN'],
+           ['ΑΡΡΙΑΝΟΣ', 'ARRIAN', 'ARRIANUS'],
            ['ΒΑΚΧΥΛΙΔΗΣ', 'BACCHYLIDES'],
            ['ΒΙΩΝ', 'BION'],
            ['ΓΟΡΓΙΑΣ', 'GORGIAS'],
@@ -54,7 +54,12 @@ authors = [['ΟΜΗΡΟΣ', 'HOMER', 'HOMERUS'],
            ['ΚΑΛΛΙΜΑΧΟΣ', 'CALLIMACHUS'],
            ['ΛΟΥΚΙΑΝΟΣ', 'LUCIANUS'],
            ['ΑΝΤΙΦΩΝ', 'ΑΝΤΙΦΩΝ ΡΗΤΩΡ', 'ANTIPHON'],
-           ['ΛΟΓΓΟΣ', 'LONGUS']
+           ['ΛΟΓΓΟΣ', 'LONGUS'],
+           ['ΑΙΣΩΠΟΣ', 'AESOP'],
+           ['ΑΝΤΙΣΘΕΝΗΣ', 'ANTISTHENES'],
+           ['ΗΡΩΔΑΣ', 'ΗΡΩΝΔΑΣ', 'HERODAS', 'HERONDAS'],
+           ['ΜΕΝΑΝΔΡΟΣ', 'MENANDER'],
+           ['ΜΟΥΣΑΙΟΣ', 'MUSAEUS']
 ]
 greek_language_urls = ['https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=194',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=156',
@@ -83,7 +88,12 @@ greek_language_urls = ['https://www.greek-language.gr/digitalResources/ancient_g
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=169',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=177',
                        'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=116',
-                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=175'
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=175',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=103',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=115',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=154',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=185',
+                       'https://www.greek-language.gr/digitalResources/ancient_greek/library/index.html?author_id=189'
 ]
 perseus_urls = ['http://www.perseus.tufts.edu/hopper/searchresults?q=Homer',
                 'http://www.perseus.tufts.edu/hopper/searchresults?q=Hesiod',
@@ -112,7 +122,12 @@ perseus_urls = ['http://www.perseus.tufts.edu/hopper/searchresults?q=Homer',
                 'http://www.perseus.tufts.edu/hopper/searchresults?q=Callimachus',
                 'http://www.perseus.tufts.edu/hopper/searchresults?q=Lucian',
                 'http://www.perseus.tufts.edu/hopper/searchresults?q=Antiphon',
-                'http://www.perseus.tufts.edu/hopper/searchresults?q=Longus'
+                'http://www.perseus.tufts.edu/hopper/searchresults?q=Longus',
+                '',
+                '',
+                '',
+                '',
+                ''
 ]
 tlg_urls = ['http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0012&wid=&q=HOMERUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0020&wid=&q=HESIODUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
@@ -141,7 +156,12 @@ tlg_urls = ['http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0012
             'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0533&wid=&q=CALLIMACHUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0062&wid=&q=LUCIANUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
             'http://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0028&wid=&q=ANTIPHON&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
-            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0561&wid=&q=LONGUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid='
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0561&wid=&q=LONGUS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0096&wid=&q=AESOPUS%20et%20AESOPICA&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=6&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0591&wid=&q=ANTISTHENES&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=5&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0650&wid=&q=HERODAS&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=0541&wid=&q=MENANDER&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=2&acp=1&editid=',
+            'http://stephanus.tlg.uci.edu/Iris/canon/csearch.jsp#doc=tlg&aid=4082&wid=&q=MUSAEUS%20Grammaticus&dt=list&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=4&acp=1&editid='
 ]
 more_urls = [['http://users.sch.gr/ipap/Ellinikos%20Politismos/Yliko/OMHROS-ILIADA/ARXAIO/ILIADA.htm', 'http://users.sch.gr/ipap/Ellinikos%20Politismos/Yliko/OMHROS%20ODYSSEIA/OMHROS%20ODYSSEIA.htm'],
              [],
@@ -170,9 +190,13 @@ more_urls = [['http://users.sch.gr/ipap/Ellinikos%20Politismos/Yliko/OMHROS-ILIA
              [],
              [],
              [],
+             [],
+             [],
+             [],
+             [],
+             [],
              []
 ]
-
 greek_letter = ['α', 'β', 'γ', 'δ', 'ε', 'ζ', 'η', 'θ', 'ι', 'κ', 'λ', 'μ', 'ν', 'ξ', 'ο', 'π', 'ρ', ['σ', 'ς'], 'τ', 'υ', 'φ', 'χ', 'ψ', 'ω', ['ά', 'ά'], ['έ', 'έ'], ['ή', 'ή'], ['ί', 'ί'], ['ό', 'ό'], ['ύ', 'ύ'], ['ώ', 'ώ'], 'ὰ', 'ὲ', 'ὴ', 'ὶ', 'ὸ', 'ὺ', 'ὼ', 'ᾶ', 'ῆ', 'ῖ', 'ῦ', 'ῶ']
 greek_letter_perseus_format = ['a', 'b', 'g', 'd', 'e', 'z', 'h', 'q', 'i', 'k', 'l', 'm', 'n', 'c', 'o', 'p', 'r', 's', 't', 'u', 'f', 'x', 'y', 'w', 'a/', 'e/', 'h/', 'i/', 'o/', 'u/', 'w/', 'a\\', 'e\\', 'h\\', 'i\\', 'o\\', 'u\\', 'w\\', 'a=', 'h=', 'i=', 'u=', 'w=']
 def search_author(event=None):
@@ -180,7 +204,8 @@ def search_author(event=None):
     for i in range(len(authors)):
         if make_clear(author) in authors[i]:
             webbrowser.open(greek_language_urls[i])
-            webbrowser.open(perseus_urls[i])
+            if perseus_urls[i]:
+                webbrowser.open(perseus_urls[i])
             for mu in more_urls[i]:
                 webbrowser.open(mu)
             time.sleep(1)
